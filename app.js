@@ -1,12 +1,11 @@
-const a = 5;
-const b = 2;
-let myName = "Jaehyun";
+const amIFat = true;
+console.log(amIFat);
 
-console.log(a + b);
-console.log(a * b);
-console.log(a / b);
-console.log("hello " + myName);
+const amISkinny = false;
+console.log(amISkinny);
 
-myName = "JaehyunPark";
+let amIChage = null;
+console.log(amIChage);
 
-console.log("your new name is " + myName);
+let something;
+console.log(something);
