@@ -1,10 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
 @import "reset.css";
+@import "variables.css";
 
 body {
   height: 100vh;
+  background: no-repeat center;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.weather {
+  padding-top: 40px;
+  margin-left: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--fontcolor);
+}
+
+.weather span {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.clock {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+  font-weight: 100;
+  color: var(--fontcolor);
+}
+
+.login-form {
+  padding-top: 100px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-form input {
+  max-width: 100%;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  font-weight: 200;
+  color: var(--fontcolor);
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.login-form input:first-child {
+  max-width: 400px;
+  padding: 15px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--fontcolor);
+  font-size: 24px;
+}
+
+.login-form input::placeholder {
+  font-size: 24px;
+  color: var(--fontcolor);
+  opacity: 1;
+}
+
+.login-form input:first-child:focus::placeholder {
+  opacity: 0;
+}
+
+.login-form input:last-child {
+  max-width: 150px;
+  padding: 10px 0;
+  border: 1px solid var(--fontcolor);
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.greeting {
+  padding-top: 110px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 100;
+  color: var(--fontcolor);
+}
+
+.todo-form {
+  display: flex;
+  justify-content: center;
+}
+
+.todo-form input {
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid var(--fontcolor);
+  background-color: transparent;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 200;
+  color: var(--fontcolor);
+  font-family: "Noto Sans KR", sans-serif;
+  box-sizing: border-box;
+}
+
+.todo-form input::placeholder {
+  font-size: 24px;
+  color: var(--fontcolor);
+  opacity: 1;
+}
+
+.todo-form input:focus::placeholder {
+  opacity: 0;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 200;
+  color: var(--fontcolor);
+}
+
+.todo-list li {
+  margin-bottom: 10px;
+}
+
+.todo-list li button {
+  border: none;
+  background-color: transparent;
+  font: inherit;
+  color: rgb(230, 230, 230);
+}
+
+.quote {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  bottom: 30px;
+  font-size: 16px;
+  font-weight: 200;
+  color: var(--fontcolor);
+}
+
+.quote span {
+  margin-bottom: 5px;
 }
 
 .hidden {
