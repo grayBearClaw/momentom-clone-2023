@@ -1,11 +1,11 @@
 Chrome Extention Momentum 클론 코딩
 
----
 작업기간: 2024.01.30 - 2024.03.04
 사용언어: html, css, javascript
+
 ---
 
-주요 기능
+[주요 기능]
 
 background, quotes: 저장된 이미지(5개)와 텍스트(10개)를 랜덤으로 1개씩 로딩
 
